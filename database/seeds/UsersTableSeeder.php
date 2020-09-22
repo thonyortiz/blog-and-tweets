@@ -14,6 +14,7 @@ class UsersTableSeeder extends Seeder
     {
         User::create([
             'name' => 'Itachi',
+            'username' => 'cursolaravel7',
             'email' => 'itachi@cursolaravel7.com',
             'password' => bcrypt('12345678')
         ]);
